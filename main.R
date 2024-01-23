@@ -6,7 +6,7 @@ source("misc_functions.R")
 one_year_data <- merge_epi_supplement(2022)
 
 # get multiple years of data
-supplement_years <- seq(2014, 2022, 2)
+supplement_years <- seq(1996, 2022, 2)
 
 multiple_years_data <- map(supplement_years, merge_epi_supplement) %>% 
   list_rbind()

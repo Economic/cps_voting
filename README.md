@@ -1,4 +1,5 @@
 # merge CPS voting supplements to EPI CPS extracts
+Currently works for 1996-2022 CPS Voting Supplements
 
 ## file descriptions
 
